@@ -1,5 +1,5 @@
 """App entry point."""
-from flask_jinja_tutorial import create_app
+from app import create_app
 
 app = create_app()
 
